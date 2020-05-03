@@ -26,7 +26,7 @@ var UserSchema = new Schema({
 var userModel = mongo.model('users', UserSchema, 'users');
 
 
-app.get('/api/saveUser', function (req, res) {
+app.post('/api/saveUser', function (req, res) {
 	var query = {'email': "'email':'test@test.com'"};
 	var mod = {'name':'test', 'email':'test@test.com'}; 
 	 userModel.findOneAndUpdate(query,mod, {upsert: true}, function(err,doc) {
