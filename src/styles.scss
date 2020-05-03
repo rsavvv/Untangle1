@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+.body{
+	.untangle-btn-1{
+		padding: 20px 20px;
+	    border-radius: 10px;
+	    background-color: #ec8675;
+	    box-shadow: 0 0 0 0 #000000;
+	}
+	.bold{
+		font-weight:600;
+	}
+	.untangle-input-1{
+    margin:20px auto;
+    padding: 25px 15px;
+    border:0;
+    border-radius:5px; 
+    background-color:#f2f2f2;
+  }
+}
